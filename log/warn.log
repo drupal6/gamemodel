@@ -1,0 +1,14 @@
+ERROR:2018-07-16 19:38:11,633-com.gl.ScriptPool-69[main]
+ 
+java.lang.IllegalStateException: 找不到目录: D:\intellijw\java\gamemodel\target\scriptsbin\
+	at com.sun.tools.javac.main.Main.error(Main.java:186)
+	at com.sun.tools.javac.main.Main.checkDirectory(Main.java:345)
+	at com.sun.tools.javac.main.Main.processArgs(Main.java:274)
+	at com.sun.tools.javac.main.Main.compile(Main.java:414)
+	at com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:129)
+	at com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:138)
+	at com.gl.ScriptPool.compile(ScriptPool.java:170)
+	at com.gl.ScriptPool.compile(ScriptPool.java:135)
+	at com.gl.ScriptPool.loadJava(ScriptPool.java:194)
+	at com.gl.ScriptManager.init(ScriptManager.java:45)
+	at script.TestScript.main(TestScript.java:9)

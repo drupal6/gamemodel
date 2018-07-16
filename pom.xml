@@ -12,6 +12,7 @@
         <module>game.redis</module>
         <module>game-util</module>
         <module>game-thread</module>
+        <module>game.script</module>
     </modules>
 
     <properties>

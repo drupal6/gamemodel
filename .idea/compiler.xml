@@ -6,10 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="game.script" />
         <module name="gameredis" />
         <module name="gamethread" />
         <module name="gameutil" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gamescript" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
